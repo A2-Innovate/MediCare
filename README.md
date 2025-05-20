@@ -20,15 +20,26 @@ It streamlines patient registration, doctor allocation, medicine inventory, and 
 ---
 
 ## 🏗️ Build Instructions
-> Tested on **g++ 13** and **clang++ 17** (C++17 or newer).
+💻 On Windows (using MinGW or installed g++)
+Open Command Prompt
 
-```bash
-# Clone the repo
-git clone https://github.com/<org-or-user>/MediCarePlus.git
-cd MediCarePlus
+Navigate to the folder containing MediCare+.cpp:
+cd path\to\your\folder
 
-# Compile
-g++ -std=c++17 -Wall -Wextra -O2 -o MediCarePlus "MediCare+.cpp"
+Compile the code:
+g++ -o MediCare MediCare+.cpp
 
-# Run
-./MediCarePlus
+Run the program:
+MediCare.exe
+
+🐧 On Linux / WSL / macOS
+Open Terminal
+
+Navigate to the folder:
+cd /path/to/your/folder
+
+Compile:
+g++ -o MediCare MediCare+.cpp
+
+Run:
+./MediCare
