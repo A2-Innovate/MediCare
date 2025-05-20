@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/87ffd0ea-319e-48a7-835f-68bc1fcf7f47)
+
 # MediCare+
 Console-based Hospital Management System in modern C++ (MediCare+): patient registration, doctor &amp; medicine management, and automated billing with file-based persistence.
 
